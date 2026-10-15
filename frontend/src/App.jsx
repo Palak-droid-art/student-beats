@@ -7,8 +7,8 @@ import {
 } from 'lucide-react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/songs';
-const AUTH_URL = 'http://localhost:5000/api/auth';
+const API_URL = "https://student-beats.onrender.com/api/songs";
+const AUTH_URL = "https://student-beats.onrender.com/api/auth";
 
 const getYouTubeId = (url) => {
   if (!url) return null;
